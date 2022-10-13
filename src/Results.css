@@ -1,0 +1,29 @@
+.Results .container {
+  text-align: left;
+  background-color: #e2e8f7;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.Results h2 {
+  color: #430f58;
+  font-size: 35px;
+}
+.Results h3 {
+  color: #8594e4;
+  font-size: 35px;
+}
+
+.Results h4 {
+  color: #6643b5;
+  margin-top: 30px;
+}
+
+.Results p {
+  font-size: 18px;
+}
+
+.Results em {
+  color: #430f58;
+  font-weight: bold;
+}
