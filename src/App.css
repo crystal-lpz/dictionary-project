@@ -1,5 +1,5 @@
 body {
-  background-color: #d5def5;
+  background-color: #e2e8f7;
 }
 .App {
   text-align: center;
@@ -11,7 +11,4 @@ body {
 }
 footer {
   margin-top: 10px;
-}
-input {
-  color: indigo;
 }
