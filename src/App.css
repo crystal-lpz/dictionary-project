@@ -1,4 +1,17 @@
+body {
+  background-color: #d5def5;
+}
 .App {
   text-align: center;
-  background-color: #d5def5;
+  margin-top: 25px;
+}
+.question {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 10px;
+}
+input {
+  color: indigo;
 }
