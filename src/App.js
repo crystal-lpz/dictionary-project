@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <h2>Dictionary</h2>
       <div className="question">What word do you want to look up?</div>
-      <Dictionary defaultWord="frog" />
+      <Dictionary defaultWord="sunset" />
       <footer>
         This project was coded by{" "}
         <a
