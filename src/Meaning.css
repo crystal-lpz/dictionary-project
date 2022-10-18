@@ -1,0 +1,9 @@
+.Meaning h4 {
+  color: #6643b5;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.Meaning .definition {
+  font-weight: 400;
+}

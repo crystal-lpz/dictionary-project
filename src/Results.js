@@ -4,15 +4,18 @@ import "./Results.css";
 import Synonyms from "./Synonyms";
 import Phonetic from "./Phonetic";
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
         <div className="container">
-          <h2>{props.results.word}</h2>
+          <section>
+            <h2>{props.results.word}</h2>
+            <Phonetic phonetic={props.results.phonetics[0]} />
+          </section>
+          <section>
+            <Synonyms synonyms={props.results.meanings[0].synonyms} />
+          </section>
 
-          <Phonetic phonetic={props.results.phonetics[0]} />
-          <Synonyms synonyms={props.results.meanings[0].synonyms} />
           {props.results.meanings.map(function (meaning, index) {
             return (
               <div key={index}>

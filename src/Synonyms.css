@@ -1,0 +1,15 @@
+.synonyms ul {
+  margin-left: 0;
+}
+.synonyms li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.synonyms span {
+  margin-left: -28px;
+  opacity: 0.7;
+}

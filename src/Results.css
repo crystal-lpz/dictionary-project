@@ -1,9 +1,5 @@
-.Results .container {
+.Results {
   text-align: left;
-  background-color: white;
-  margin-top: 30px;
-  padding: 20px;
-  border-radius: 20px;
 }
 .Results h2 {
   color: #430f58;
@@ -14,14 +10,9 @@
   font-size: 28px;
 }
 
-.Results h4 {
-  color: #6643b5;
+.Results section {
+  background-color: white;
+  padding: 20px;
   margin-top: 30px;
-}
-
-.Results p {
-  font-size: 18px;
-}
-.Results strong {
-  margin-top: 17px;
+  border-radius: 20px;
 }

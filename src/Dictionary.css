@@ -1,0 +1,20 @@
+.container {
+  max-width: 800px;
+}
+.dictionary section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.dictionary input {
+  width: 100%;
+  line-height: 40px;
+  border-radius: 7px;
+  border: 2px rgba(128, 128, 128, 0.336) solid;
+  color: rgb(107, 106, 106);
+}
+.question {
+  font-size: 37px;
+  margin-bottom: 20px;
+}
