@@ -1,7 +1,6 @@
 import React from "react";
 import "./Photos.css";
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
       <div>
@@ -16,9 +15,9 @@ export default function Photos(props) {
                     rel="noreferrer"
                   >
                     <img
-                      src={photos.src.small}
-                      className="photos"
-                      alt={props.name.word}
+                      src={photos.src.landscape}
+                      className="photos img-fluid"
+                      alt={props.nameds}
                     />
                   </a>
                 </div>

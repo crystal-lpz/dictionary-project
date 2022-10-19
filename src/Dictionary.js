@@ -52,9 +52,10 @@ export default function Dictionary(props) {
                 defaultValue={props.defaultWord}
               />
             </form>
+            <div className="sample">Ex: star, autumn, art, coding</div>
           </section>
           <Results results={result} />
-          <Photos photos={photo} name={result} />
+          <Photos photos={photo} name={keyWord} />
         </div>
       </div>
     );
