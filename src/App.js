@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./Logo.png";
 import Dictionary from "./Dictionary";
 
 export default function App() {
