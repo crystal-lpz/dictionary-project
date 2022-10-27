@@ -10,6 +10,7 @@
   font-size: 27px;
   margin-right: 10px;
   transition: all 0.2s ease-out;
+  color: #8c6e54;
 }
 .icon:hover {
   opacity: 0.4;
